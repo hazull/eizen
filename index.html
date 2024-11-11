@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Eizen Jed Embalsado</title>
+  <style>
+    header{
+      background: url(img/ej10.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+        }
+      }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    body {
+      background-color:#78909c ;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">Eizen Jed Embalsado</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#what_i_do">What I Do</a></li>
+          <li><a href="#contact_me">Contact Me Whenever You Need</a></li>
+          <li><a href="https://www.instagram.com/eizen.jd/profilecard/?igsh=ZmY2c3VjaGJ3a2E1" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100087274327023&mibextid=ZbWKwL" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+          <li><a href="www.twitter.com" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+        </ul>
+        <ul class="sidenav blue-grey darken-2" id="mobile-menu">
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#what_i_do">What I Do</a></li>
+          <li><a href="#contact_me">Contact Me Whenever You Need</a></li>
+      </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="about_me">
+    <div class="row">
+      <div class="col s12 l4 push-l2">
+          <img src="img/self-all-by-myself.gif" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="blue-grey-text text-darken-3">Profile</h2>
+        <p>As a Grade 11 student, i want to explore technology to further expand my knowledge and try out different new gadgets in this era i also want to leearn how to code. I am excited because i will learn a lot.</p>
+        <audio controls>
+          <source src="audio/bini_strings.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+          <img src="img/wednesday-morning-happy-dance.gif" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="blue-grey-text text-darken-3">Achievements</h2>
+        <p> I became the leader of a group that teaches and guides young kids who do not know how to read and write. We do this so that the youth can become skilled and learn basic things.</p>
+        <audio controls>
+          <source src="audio/bini_salamin.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="img/doph.gif" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="blue-grey-text text-darken-3">Things i like</h2>
+        <p>I like spicy food and trying new things I haven't tried. I am also a BINI fanboy and likes loud musics.</p>
+        <audio controls>
+          <source src="audio/cant_stop.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/bg.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="what_i_do">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="blue-grey-text text-darken-3">What I do..</h2>
+        <p>You will find out soon... Contact me..</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#running" class="active blue-grey-text text-darken-3">Strand</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#studying" class="blue-grey-text text-darken-3">Contact Number</a>
+          </li>
+        </ul>
+        <div id="running" class="col s12">
+            <p class="flow-text blue-grey-text text-darken-3">Strand</p>
+            <p><b>TVL</b> - Information Communication Technology</p>
+        </div>
+        <div id="studying" class="col s12">
+            <p class="flow-text blue-grey-text text-darken-3">Contact Number</p>
+            <p><b>Phone Number:</b> 09603825793 </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/bg1.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact_me">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="blue-grey-text text-darken-3">Get in Touch</h2>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix blue-grey-text text-darken-3">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix blue-grey-text text-darken-3">message</i>
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix blue-grey-text text-darken-3">date_range</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a date you need me for...</label>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+    <footer class="footer-copyright grey darken-4">
+      <div class="container center-align white-text">&copy; 2024 Eizen Jed Embalsado </div>
+    </footer>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
